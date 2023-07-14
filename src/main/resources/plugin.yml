@@ -1,0 +1,12 @@
+name: NBTGUI
+main: com.adognamedspot.nbtgui.NBTGUI
+version: ${project.version}
+author: A DoG NaMeD SpoT
+api-version: '1.20'
+commands:
+   nbtgui:
+      description: Opens the NBTGUI
+      usage: /<command>
+      permission: <plugin name>.view
+      permission-message: You don't have <permission>
+
